@@ -12,12 +12,12 @@ const getReactCode = (
   return `import React from 'react';
 
 interface IProps {
-  additionalClasses?: string; // e.g. to set width; not height
+  classNames?: string; // additional classes e.g. to set width (not height)
 }
 
-export const ${componentName}: React.FC<IProps> = ({ additionalClasses }) => {
+export const ${componentName}: React.FC<IProps> = ({ classNames }) => {
   return (
-    <div className={\`my-svg-icon \${additionalClasses}\`}>
+    <div className={\`my-svg-icon \${classNames}\`}>
       <div className="my-svg-container">
         <svg className="my-svg-scaling" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
           ${svgPaths}

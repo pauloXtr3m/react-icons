@@ -15,6 +15,7 @@ const build = () => {
     const fp = path.join(BUILD_PATH, code.filepath);
     fs.outputFile(fp, code.code);
   });
+  fs.copyFileSync('scripts/extra/withClasses.tsx', BUILD_PATH + '/withClasses.tsx');
 };
 
 build();
