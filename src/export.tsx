@@ -4,7 +4,7 @@ interface IProps {
   width?: string; // must be width; cannot set height
 }
 
-const IconExport: React.FunctionComponent<IProps> = ({ width }) => {
+const IconExport: React.FC<IProps> = ({ width }) => {
   return (
     <div className="my-svg-icon" style={{ width }}>
       <div className="my-svg-container">
