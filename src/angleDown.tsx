@@ -4,7 +4,7 @@ interface IProps {
   width?: string; // must be width; cannot set height
 }
 
-const IconAngleDown: React.FC<IProps> = ({ width }) => {
+export const IconAngleDown: React.FC<IProps> = ({ width }) => {
   return (
     <div className="my-svg-icon" style={{ width }}>
       <div className="my-svg-container">
@@ -15,5 +15,3 @@ const IconAngleDown: React.FC<IProps> = ({ width }) => {
     </div>
   );
 };
-
-export default IconAngleDown;

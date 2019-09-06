@@ -15,7 +15,7 @@ interface IProps {
   width?: string; // must be width; cannot set height
 }
 
-const ${componentName}: React.FC<IProps> = ({ width }) => {
+export const ${componentName}: React.FC<IProps> = ({ width }) => {
   return (
     <div className="my-svg-icon" style={{ width }}>
       <div className="my-svg-container">
@@ -26,8 +26,6 @@ const ${componentName}: React.FC<IProps> = ({ width }) => {
     </div>
   );
 };
-
-export default ${componentName};
 `;
 };
 
