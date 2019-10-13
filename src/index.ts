@@ -1,3 +1,4 @@
+export * from './withClasses';
 export * from './account';
 export * from './add';
 export * from './angleDown';

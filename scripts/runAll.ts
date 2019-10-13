@@ -44,7 +44,10 @@ export const runAll = (globPattern: string) => {
     }
   });
 
-  const idx = filepaths.reduce((acc, curr) => `${acc}export * from './${getName(curr)}';\n`, '');
+  const idx = filepaths.reduce(
+    (acc, curr) => `${acc}export * from './${getName(curr)}';\n`,
+    `export * from './withClasses';\n`,
+  );
   const fpidx = path.join(BUILD_PATH, 'index.ts');
   fs.outputFileSync(fpidx, idx);
 };
