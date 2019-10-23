@@ -82,13 +82,17 @@ const s: React.CSSProperties = {
   marginRight: 10,
 };
 
+const l: React.CSSProperties = {
+  color: '#d11141',
+};
+
 stories.add('IconAccount', () => (
   <div style={{ display: 'flex', flexDirection: 'column' }}>
 `;
 
   storyboard += filepaths.reduce((acc, curr) => {
     const n = `${getComp(curr)}`;
-    return `${acc}    <div style={rowStyle}><${n} /><span style={s} />${n}</div>\n`;
+    return `${acc}    <div style={rowStyle}><${n} style={l} /><span style={s} />${n}</div>\n`;
   }, '');
 
   storyboard += `  </div>

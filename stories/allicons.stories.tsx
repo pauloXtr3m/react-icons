@@ -49,42 +49,46 @@ const s: React.CSSProperties = {
   marginRight: 10,
 };
 
+const l: React.CSSProperties = {
+  color: '#d11141',
+};
+
 stories.add('IconAccount', () => (
   <div style={{ display: 'flex', flexDirection: 'column' }}>
-    <div style={rowStyle}><IconAccount /><span style={s} />IconAccount</div>
-    <div style={rowStyle}><IconAdd /><span style={s} />IconAdd</div>
-    <div style={rowStyle}><IconAngleDown /><span style={s} />IconAngleDown</div>
-    <div style={rowStyle}><IconArrowLeft /><span style={s} />IconArrowLeft</div>
-    <div style={rowStyle}><IconCaretDown /><span style={s} />IconCaretDown</div>
-    <div style={rowStyle}><IconCart /><span style={s} />IconCart</div>
-    <div style={rowStyle}><IconChart /><span style={s} />IconChart</div>
-    <div style={rowStyle}><IconClose /><span style={s} />IconClose</div>
-    <div style={rowStyle}><IconDocument /><span style={s} />IconDocument</div>
-    <div style={rowStyle}><IconExclamation /><span style={s} />IconExclamation</div>
-    <div style={rowStyle}><IconExpandLess /><span style={s} />IconExpandLess</div>
-    <div style={rowStyle}><IconExpandMore /><span style={s} />IconExpandMore</div>
-    <div style={rowStyle}><IconExport /><span style={s} />IconExport</div>
-    <div style={rowStyle}><IconFacebook /><span style={s} />IconFacebook</div>
-    <div style={rowStyle}><IconFilm /><span style={s} />IconFilm</div>
-    <div style={rowStyle}><IconGlobe /><span style={s} />IconGlobe</div>
-    <div style={rowStyle}><IconHome /><span style={s} />IconHome</div>
-    <div style={rowStyle}><IconInstagram /><span style={s} />IconInstagram</div>
-    <div style={rowStyle}><IconLinkedin /><span style={s} />IconLinkedin</div>
-    <div style={rowStyle}><IconMinus /><span style={s} />IconMinus</div>
-    <div style={rowStyle}><IconMoney /><span style={s} />IconMoney</div>
-    <div style={rowStyle}><IconMusic /><span style={s} />IconMusic</div>
-    <div style={rowStyle}><IconMyLocation /><span style={s} />IconMyLocation</div>
-    <div style={rowStyle}><IconPicture /><span style={s} />IconPicture</div>
-    <div style={rowStyle}><IconPlus /><span style={s} />IconPlus</div>
-    <div style={rowStyle}><IconRemove /><span style={s} />IconRemove</div>
-    <div style={rowStyle}><IconRescale /><span style={s} />IconRescale</div>
-    <div style={rowStyle}><IconShapes /><span style={s} />IconShapes</div>
-    <div style={rowStyle}><IconSync /><span style={s} />IconSync</div>
-    <div style={rowStyle}><IconTrash /><span style={s} />IconTrash</div>
-    <div style={rowStyle}><IconUser /><span style={s} />IconUser</div>
-    <div style={rowStyle}><IconWhatsapp /><span style={s} />IconWhatsapp</div>
-    <div style={rowStyle}><IconYoutube /><span style={s} />IconYoutube</div>
-    <div style={rowStyle}><IconZoomIn /><span style={s} />IconZoomIn</div>
-    <div style={rowStyle}><IconZoomOut /><span style={s} />IconZoomOut</div>
+    <div style={rowStyle}><IconAccount style={l} /><span style={s} />IconAccount</div>
+    <div style={rowStyle}><IconAdd style={l} /><span style={s} />IconAdd</div>
+    <div style={rowStyle}><IconAngleDown style={l} /><span style={s} />IconAngleDown</div>
+    <div style={rowStyle}><IconArrowLeft style={l} /><span style={s} />IconArrowLeft</div>
+    <div style={rowStyle}><IconCaretDown style={l} /><span style={s} />IconCaretDown</div>
+    <div style={rowStyle}><IconCart style={l} /><span style={s} />IconCart</div>
+    <div style={rowStyle}><IconChart style={l} /><span style={s} />IconChart</div>
+    <div style={rowStyle}><IconClose style={l} /><span style={s} />IconClose</div>
+    <div style={rowStyle}><IconDocument style={l} /><span style={s} />IconDocument</div>
+    <div style={rowStyle}><IconExclamation style={l} /><span style={s} />IconExclamation</div>
+    <div style={rowStyle}><IconExpandLess style={l} /><span style={s} />IconExpandLess</div>
+    <div style={rowStyle}><IconExpandMore style={l} /><span style={s} />IconExpandMore</div>
+    <div style={rowStyle}><IconExport style={l} /><span style={s} />IconExport</div>
+    <div style={rowStyle}><IconFacebook style={l} /><span style={s} />IconFacebook</div>
+    <div style={rowStyle}><IconFilm style={l} /><span style={s} />IconFilm</div>
+    <div style={rowStyle}><IconGlobe style={l} /><span style={s} />IconGlobe</div>
+    <div style={rowStyle}><IconHome style={l} /><span style={s} />IconHome</div>
+    <div style={rowStyle}><IconInstagram style={l} /><span style={s} />IconInstagram</div>
+    <div style={rowStyle}><IconLinkedin style={l} /><span style={s} />IconLinkedin</div>
+    <div style={rowStyle}><IconMinus style={l} /><span style={s} />IconMinus</div>
+    <div style={rowStyle}><IconMoney style={l} /><span style={s} />IconMoney</div>
+    <div style={rowStyle}><IconMusic style={l} /><span style={s} />IconMusic</div>
+    <div style={rowStyle}><IconMyLocation style={l} /><span style={s} />IconMyLocation</div>
+    <div style={rowStyle}><IconPicture style={l} /><span style={s} />IconPicture</div>
+    <div style={rowStyle}><IconPlus style={l} /><span style={s} />IconPlus</div>
+    <div style={rowStyle}><IconRemove style={l} /><span style={s} />IconRemove</div>
+    <div style={rowStyle}><IconRescale style={l} /><span style={s} />IconRescale</div>
+    <div style={rowStyle}><IconShapes style={l} /><span style={s} />IconShapes</div>
+    <div style={rowStyle}><IconSync style={l} /><span style={s} />IconSync</div>
+    <div style={rowStyle}><IconTrash style={l} /><span style={s} />IconTrash</div>
+    <div style={rowStyle}><IconUser style={l} /><span style={s} />IconUser</div>
+    <div style={rowStyle}><IconWhatsapp style={l} /><span style={s} />IconWhatsapp</div>
+    <div style={rowStyle}><IconYoutube style={l} /><span style={s} />IconYoutube</div>
+    <div style={rowStyle}><IconZoomIn style={l} /><span style={s} />IconZoomIn</div>
+    <div style={rowStyle}><IconZoomOut style={l} /><span style={s} />IconZoomOut</div>
   </div>
 ));
