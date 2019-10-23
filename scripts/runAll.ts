@@ -2,6 +2,7 @@ import fs from 'fs-extra';
 import glob from 'glob';
 import path from 'path';
 import SVGO from 'svgo';
+import lodash from 'lodash';
 import { getSvgDims } from './helpers';
 import genCode from './genCode';
 
@@ -24,6 +25,13 @@ const handleFile = async (filepath: string, data: string) => {
 
 // get the icon name
 export const getName = (filepath: string) => path.basename(filepath, path.extname(filepath));
+
+// get component name
+export const getComp = (filepath: string) => {
+  const name = path.basename(filepath, path.extname(filepath));
+  const filename = lodash.camelCase(name);
+  return `Icon${lodash.upperFirst(filename)}`;
+};
 
 // build the optimized SVG data
 export const runAll = (globPattern: string) => {
@@ -50,4 +58,42 @@ export const runAll = (globPattern: string) => {
   );
   const fpidx = path.join(BUILD_PATH, 'index.ts');
   fs.outputFileSync(fpidx, idx);
+
+  let storyboard = `import React from 'react';
+import { storiesOf } from '@storybook/react';
+`;
+
+  storyboard += filepaths.reduce(
+    (acc, curr) => `${acc}import { ${getComp(curr)} } from '../src';\n`,
+    '',
+  );
+
+  storyboard += `
+const stories = storiesOf('React Icons', module);
+
+const rowStyle: React.CSSProperties = {
+  display: 'flex',
+  flexDirection: 'row',
+  alignItems: 'center',
+  marginBottom: 10,
+};
+
+const s: React.CSSProperties = {
+  marginRight: 10,
+};
+
+stories.add('IconAccount', () => (
+  <div style={{ display: 'flex', flexDirection: 'column' }}>
+`;
+
+  storyboard += filepaths.reduce((acc, curr) => {
+    const n = `${getComp(curr)}`;
+    return `${acc}    <div style={rowStyle}><${n} /><span style={s} />${n}</div>\n`;
+  }, '');
+
+  storyboard += `  </div>
+));
+`;
+
+  fs.outputFileSync(path.join(__dirname, '..', 'stories', 'allicons.stories.tsx'), storyboard);
 };
