@@ -1,17 +1,46 @@
 import React from 'react';
 
 interface IProps {
-  classNames?: string; // additional classes e.g. to set width (not height)
+  size?: number; // size of square container
+  style?: React.CSSProperties; // not for height or width
 }
 
-export const IconExclamation: React.FC<IProps> = ({ classNames }) => {
+export const IconExclamation: React.FC<IProps> = ({ size = 24, style }) => {
   return (
-    <div className={`my-svg-icon ${classNames}`}>
-      <div className="my-svg-container">
-        <svg className="my-svg-scaling" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
+    <div
+      style={{
+        display: 'inline-flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        ...style,
+        height: size,
+        width: size,
+      }}
+    >
+      <div
+        style={{
+          position: 'relative',
+          height: 0,
+          width: '100%',
+          padding: 0,
+          paddingBottom: '100%',
+        }}
+      >
+        <svg
+          style={{
+            position: 'absolute',
+            height: '100%',
+            width: '100%',
+            left: 0,
+            top: 0,
+          }}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <path fill="currentColor" d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/>
         </svg>
       </div>
     </div>
+
   );
 };
