@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { IconAccount } from '../src';
 import { IconAdd } from '../src';
 import { IconAngleDown } from '../src';
+import { IconAngleUp } from '../src';
 import { IconArrowLeft } from '../src';
 import { IconCaretDown } from '../src';
 import { IconCart } from '../src';
@@ -58,6 +59,7 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconAccount style={l} /><span style={s} />IconAccount</div>
     <div style={rowStyle}><IconAdd style={l} /><span style={s} />IconAdd</div>
     <div style={rowStyle}><IconAngleDown style={l} /><span style={s} />IconAngleDown</div>
+    <div style={rowStyle}><IconAngleUp style={l} /><span style={s} />IconAngleUp</div>
     <div style={rowStyle}><IconArrowLeft style={l} /><span style={s} />IconArrowLeft</div>
     <div style={rowStyle}><IconCaretDown style={l} /><span style={s} />IconCaretDown</div>
     <div style={rowStyle}><IconCart style={l} /><span style={s} />IconCart</div>

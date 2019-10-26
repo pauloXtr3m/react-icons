@@ -2,6 +2,7 @@ export * from './withClasses';
 export * from './account';
 export * from './add';
 export * from './angleDown';
+export * from './angleUp';
 export * from './arrowLeft';
 export * from './caretDown';
 export * from './cart';
