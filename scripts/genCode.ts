@@ -9,6 +9,10 @@ const getReactCode = (
   height: string,
   svgPaths: string,
 ): string => {
+  const data = svgPaths
+    .replace(new RegExp('color-interpolation-filters', 'g'), 'colorInterpolationFilters')
+    .replace(new RegExp('stroke-width', 'g'), 'strokeWidth');
+
   return `import React from 'react';
 
 interface IProps {
@@ -48,7 +52,7 @@ export const ${componentName}: React.FC<IProps> = ({ size = 24, style }) => {
           viewBox="0 0 ${width} ${height}"
           xmlns="http://www.w3.org/2000/svg"
         >
-          ${svgPaths}
+          ${data}
         </svg>
       </div>
     </div>
