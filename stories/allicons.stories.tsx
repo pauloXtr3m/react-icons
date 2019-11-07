@@ -18,6 +18,7 @@ import { IconFacebook } from '../src';
 import { IconFilm } from '../src';
 import { IconGlobe } from '../src';
 import { IconHome } from '../src';
+import { IconHouseThreeD } from '../src';
 import { IconInstagram } from '../src';
 import { IconLinkedin } from '../src';
 import { IconMinus } from '../src';
@@ -74,6 +75,7 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconFilm style={l} /><span style={s} />IconFilm</div>
     <div style={rowStyle}><IconGlobe style={l} /><span style={s} />IconGlobe</div>
     <div style={rowStyle}><IconHome style={l} /><span style={s} />IconHome</div>
+    <div style={rowStyle}><IconHouseThreeD style={l} /><span style={s} />IconHouseThreeD</div>
     <div style={rowStyle}><IconInstagram style={l} /><span style={s} />IconInstagram</div>
     <div style={rowStyle}><IconLinkedin style={l} /><span style={s} />IconLinkedin</div>
     <div style={rowStyle}><IconMinus style={l} /><span style={s} />IconMinus</div>

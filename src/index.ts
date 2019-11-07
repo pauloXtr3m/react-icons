@@ -17,6 +17,7 @@ export * from './facebook';
 export * from './film';
 export * from './globe';
 export * from './home';
+export * from './houseThreeD';
 export * from './instagram';
 export * from './linkedin';
 export * from './minus';
