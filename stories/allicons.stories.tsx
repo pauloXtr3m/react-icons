@@ -15,8 +15,11 @@ import { IconExpandLess } from '../src';
 import { IconExpandMore } from '../src';
 import { IconExport } from '../src';
 import { IconFacebook } from '../src';
+import { IconFacebookCircle } from '../src';
+import { IconFacebookSquare } from '../src';
 import { IconFilm } from '../src';
 import { IconGlobe } from '../src';
+import { IconGoogle } from '../src';
 import { IconHome } from '../src';
 import { IconHouseThreeD } from '../src';
 import { IconInstagram } from '../src';
@@ -72,8 +75,11 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconExpandMore style={l} /><span style={s} />IconExpandMore</div>
     <div style={rowStyle}><IconExport style={l} /><span style={s} />IconExport</div>
     <div style={rowStyle}><IconFacebook style={l} /><span style={s} />IconFacebook</div>
+    <div style={rowStyle}><IconFacebookCircle style={l} /><span style={s} />IconFacebookCircle</div>
+    <div style={rowStyle}><IconFacebookSquare style={l} /><span style={s} />IconFacebookSquare</div>
     <div style={rowStyle}><IconFilm style={l} /><span style={s} />IconFilm</div>
     <div style={rowStyle}><IconGlobe style={l} /><span style={s} />IconGlobe</div>
+    <div style={rowStyle}><IconGoogle style={l} /><span style={s} />IconGoogle</div>
     <div style={rowStyle}><IconHome style={l} /><span style={s} />IconHome</div>
     <div style={rowStyle}><IconHouseThreeD style={l} /><span style={s} />IconHouseThreeD</div>
     <div style={rowStyle}><IconInstagram style={l} /><span style={s} />IconInstagram</div>
