@@ -14,6 +14,8 @@ import { IconExclamation } from '../src';
 import { IconExpandLess } from '../src';
 import { IconExpandMore } from '../src';
 import { IconExport } from '../src';
+import { IconEye } from '../src';
+import { IconEyeNo } from '../src';
 import { IconFacebook } from '../src';
 import { IconFacebookCircle } from '../src';
 import { IconFacebookSquare } from '../src';
@@ -74,6 +76,8 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconExpandLess style={l} /><span style={s} />IconExpandLess</div>
     <div style={rowStyle}><IconExpandMore style={l} /><span style={s} />IconExpandMore</div>
     <div style={rowStyle}><IconExport style={l} /><span style={s} />IconExport</div>
+    <div style={rowStyle}><IconEye style={l} /><span style={s} />IconEye</div>
+    <div style={rowStyle}><IconEyeNo style={l} /><span style={s} />IconEyeNo</div>
     <div style={rowStyle}><IconFacebook style={l} /><span style={s} />IconFacebook</div>
     <div style={rowStyle}><IconFacebookCircle style={l} /><span style={s} />IconFacebookCircle</div>
     <div style={rowStyle}><IconFacebookSquare style={l} /><span style={s} />IconFacebookSquare</div>

@@ -13,6 +13,8 @@ export * from './exclamation';
 export * from './expandLess';
 export * from './expandMore';
 export * from './export';
+export * from './eye';
+export * from './eyeNo';
 export * from './facebook';
 export * from './facebookCircle';
 export * from './facebookSquare';
