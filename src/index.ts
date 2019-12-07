@@ -2,6 +2,8 @@ export * from './withClasses';
 export * from './account';
 export * from './add';
 export * from './angleDown';
+export * from './angleLeft';
+export * from './angleRight';
 export * from './angleUp';
 export * from './arrowLeft';
 export * from './caretDown';
