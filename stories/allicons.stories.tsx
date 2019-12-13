@@ -12,6 +12,8 @@ import { IconCart } from '../src';
 import { IconChart } from '../src';
 import { IconClose } from '../src';
 import { IconDocument } from '../src';
+import { IconEdit } from '../src';
+import { IconEditUser } from '../src';
 import { IconExclamation } from '../src';
 import { IconExpandLess } from '../src';
 import { IconExpandMore } from '../src';
@@ -32,6 +34,7 @@ import { IconMinus } from '../src';
 import { IconMoney } from '../src';
 import { IconMusic } from '../src';
 import { IconMyLocation } from '../src';
+import { IconPen } from '../src';
 import { IconPicture } from '../src';
 import { IconPlus } from '../src';
 import { IconRemove } from '../src';
@@ -76,6 +79,8 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconChart style={l} /><span style={s} />IconChart</div>
     <div style={rowStyle}><IconClose style={l} /><span style={s} />IconClose</div>
     <div style={rowStyle}><IconDocument style={l} /><span style={s} />IconDocument</div>
+    <div style={rowStyle}><IconEdit style={l} /><span style={s} />IconEdit</div>
+    <div style={rowStyle}><IconEditUser style={l} /><span style={s} />IconEditUser</div>
     <div style={rowStyle}><IconExclamation style={l} /><span style={s} />IconExclamation</div>
     <div style={rowStyle}><IconExpandLess style={l} /><span style={s} />IconExpandLess</div>
     <div style={rowStyle}><IconExpandMore style={l} /><span style={s} />IconExpandMore</div>
@@ -96,6 +101,7 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconMoney style={l} /><span style={s} />IconMoney</div>
     <div style={rowStyle}><IconMusic style={l} /><span style={s} />IconMusic</div>
     <div style={rowStyle}><IconMyLocation style={l} /><span style={s} />IconMyLocation</div>
+    <div style={rowStyle}><IconPen style={l} /><span style={s} />IconPen</div>
     <div style={rowStyle}><IconPicture style={l} /><span style={s} />IconPicture</div>
     <div style={rowStyle}><IconPlus style={l} /><span style={s} />IconPlus</div>
     <div style={rowStyle}><IconRemove style={l} /><span style={s} />IconRemove</div>
