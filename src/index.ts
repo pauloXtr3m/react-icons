@@ -36,6 +36,8 @@ export * from './myLocation';
 export * from './pen';
 export * from './picture';
 export * from './plus';
+export * from './question';
+export * from './questionSolid';
 export * from './remove';
 export * from './rescale';
 export * from './shapes';

@@ -37,6 +37,8 @@ import { IconMyLocation } from '../src';
 import { IconPen } from '../src';
 import { IconPicture } from '../src';
 import { IconPlus } from '../src';
+import { IconQuestion } from '../src';
+import { IconQuestionSolid } from '../src';
 import { IconRemove } from '../src';
 import { IconRescale } from '../src';
 import { IconShapes } from '../src';
@@ -104,6 +106,8 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconPen style={l} /><span style={s} />IconPen</div>
     <div style={rowStyle}><IconPicture style={l} /><span style={s} />IconPicture</div>
     <div style={rowStyle}><IconPlus style={l} /><span style={s} />IconPlus</div>
+    <div style={rowStyle}><IconQuestion style={l} /><span style={s} />IconQuestion</div>
+    <div style={rowStyle}><IconQuestionSolid style={l} /><span style={s} />IconQuestionSolid</div>
     <div style={rowStyle}><IconRemove style={l} /><span style={s} />IconRemove</div>
     <div style={rowStyle}><IconRescale style={l} /><span style={s} />IconRescale</div>
     <div style={rowStyle}><IconShapes style={l} /><span style={s} />IconShapes</div>
