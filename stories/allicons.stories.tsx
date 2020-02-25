@@ -7,6 +7,7 @@ import { IconAngleLeft } from '../src';
 import { IconAngleRight } from '../src';
 import { IconAngleUp } from '../src';
 import { IconArrowLeft } from '../src';
+import { IconBars } from '../src';
 import { IconCaretDown } from '../src';
 import { IconCart } from '../src';
 import { IconChart } from '../src';
@@ -29,6 +30,7 @@ import { IconGoogle } from '../src';
 import { IconHome } from '../src';
 import { IconHouseThreeD } from '../src';
 import { IconInstagram } from '../src';
+import { IconLightbulb } from '../src';
 import { IconLinkedin } from '../src';
 import { IconMinus } from '../src';
 import { IconMoney } from '../src';
@@ -42,9 +44,11 @@ import { IconQuestionSolid } from '../src';
 import { IconRemove } from '../src';
 import { IconRescale } from '../src';
 import { IconShapes } from '../src';
+import { IconSolarPanel } from '../src';
 import { IconSync } from '../src';
 import { IconTrash } from '../src';
 import { IconUser } from '../src';
+import { IconVertDots } from '../src';
 import { IconWhatsapp } from '../src';
 import { IconYoutube } from '../src';
 import { IconZoomIn } from '../src';
@@ -76,6 +80,7 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconAngleRight style={l} /><span style={s} />IconAngleRight</div>
     <div style={rowStyle}><IconAngleUp style={l} /><span style={s} />IconAngleUp</div>
     <div style={rowStyle}><IconArrowLeft style={l} /><span style={s} />IconArrowLeft</div>
+    <div style={rowStyle}><IconBars style={l} /><span style={s} />IconBars</div>
     <div style={rowStyle}><IconCaretDown style={l} /><span style={s} />IconCaretDown</div>
     <div style={rowStyle}><IconCart style={l} /><span style={s} />IconCart</div>
     <div style={rowStyle}><IconChart style={l} /><span style={s} />IconChart</div>
@@ -98,6 +103,7 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconHome style={l} /><span style={s} />IconHome</div>
     <div style={rowStyle}><IconHouseThreeD style={l} /><span style={s} />IconHouseThreeD</div>
     <div style={rowStyle}><IconInstagram style={l} /><span style={s} />IconInstagram</div>
+    <div style={rowStyle}><IconLightbulb style={l} /><span style={s} />IconLightbulb</div>
     <div style={rowStyle}><IconLinkedin style={l} /><span style={s} />IconLinkedin</div>
     <div style={rowStyle}><IconMinus style={l} /><span style={s} />IconMinus</div>
     <div style={rowStyle}><IconMoney style={l} /><span style={s} />IconMoney</div>
@@ -111,9 +117,11 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconRemove style={l} /><span style={s} />IconRemove</div>
     <div style={rowStyle}><IconRescale style={l} /><span style={s} />IconRescale</div>
     <div style={rowStyle}><IconShapes style={l} /><span style={s} />IconShapes</div>
+    <div style={rowStyle}><IconSolarPanel style={l} /><span style={s} />IconSolarPanel</div>
     <div style={rowStyle}><IconSync style={l} /><span style={s} />IconSync</div>
     <div style={rowStyle}><IconTrash style={l} /><span style={s} />IconTrash</div>
     <div style={rowStyle}><IconUser style={l} /><span style={s} />IconUser</div>
+    <div style={rowStyle}><IconVertDots style={l} /><span style={s} />IconVertDots</div>
     <div style={rowStyle}><IconWhatsapp style={l} /><span style={s} />IconWhatsapp</div>
     <div style={rowStyle}><IconYoutube style={l} /><span style={s} />IconYoutube</div>
     <div style={rowStyle}><IconZoomIn style={l} /><span style={s} />IconZoomIn</div>
