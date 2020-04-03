@@ -11,6 +11,7 @@ import { IconArrowLeft } from '../src';
 import { IconBars } from '../src';
 import { IconBell } from '../src';
 import { IconBolt } from '../src';
+import { IconCalculator } from '../src';
 import { IconCaretDown } from '../src';
 import { IconCart } from '../src';
 import { IconChart } from '../src';
@@ -35,6 +36,8 @@ import { IconFacebookCircle } from '../src';
 import { IconFacebookSquare } from '../src';
 import { IconFilm } from '../src';
 import { IconFilter } from '../src';
+import { IconFlag } from '../src';
+import { IconFlagLight } from '../src';
 import { IconGlobe } from '../src';
 import { IconGoogle } from '../src';
 import { IconHome } from '../src';
@@ -42,6 +45,7 @@ import { IconHouseThreeD } from '../src';
 import { IconInstagram } from '../src';
 import { IconLightbulb } from '../src';
 import { IconLinkedin } from '../src';
+import { IconMapMarker } from '../src';
 import { IconMinus } from '../src';
 import { IconMobile } from '../src';
 import { IconMoney } from '../src';
@@ -103,6 +107,7 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconBars style={l} /><span style={s} />IconBars</div>
     <div style={rowStyle}><IconBell style={l} /><span style={s} />IconBell</div>
     <div style={rowStyle}><IconBolt style={l} /><span style={s} />IconBolt</div>
+    <div style={rowStyle}><IconCalculator style={l} /><span style={s} />IconCalculator</div>
     <div style={rowStyle}><IconCaretDown style={l} /><span style={s} />IconCaretDown</div>
     <div style={rowStyle}><IconCart style={l} /><span style={s} />IconCart</div>
     <div style={rowStyle}><IconChart style={l} /><span style={s} />IconChart</div>
@@ -127,6 +132,8 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconFacebookSquare style={l} /><span style={s} />IconFacebookSquare</div>
     <div style={rowStyle}><IconFilm style={l} /><span style={s} />IconFilm</div>
     <div style={rowStyle}><IconFilter style={l} /><span style={s} />IconFilter</div>
+    <div style={rowStyle}><IconFlag style={l} /><span style={s} />IconFlag</div>
+    <div style={rowStyle}><IconFlagLight style={l} /><span style={s} />IconFlagLight</div>
     <div style={rowStyle}><IconGlobe style={l} /><span style={s} />IconGlobe</div>
     <div style={rowStyle}><IconGoogle style={l} /><span style={s} />IconGoogle</div>
     <div style={rowStyle}><IconHome style={l} /><span style={s} />IconHome</div>
@@ -134,6 +141,7 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconInstagram style={l} /><span style={s} />IconInstagram</div>
     <div style={rowStyle}><IconLightbulb style={l} /><span style={s} />IconLightbulb</div>
     <div style={rowStyle}><IconLinkedin style={l} /><span style={s} />IconLinkedin</div>
+    <div style={rowStyle}><IconMapMarker style={l} /><span style={s} />IconMapMarker</div>
     <div style={rowStyle}><IconMinus style={l} /><span style={s} />IconMinus</div>
     <div style={rowStyle}><IconMobile style={l} /><span style={s} />IconMobile</div>
     <div style={rowStyle}><IconMoney style={l} /><span style={s} />IconMoney</div>
