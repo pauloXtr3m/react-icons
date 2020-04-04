@@ -1,6 +1,6 @@
 {
   "name": "@cpmech/react-icons",
-  "version": "2.17.0",
+  "version": "2.18.0",
   "license": "MIT",
   "scripts": {
     "gen": "ts-node scripts/build.ts",
