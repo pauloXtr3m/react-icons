@@ -21,6 +21,7 @@ import { IconChartPie } from '../src';
 import { IconClose } from '../src';
 import { IconCog } from '../src';
 import { IconCreditCard } from '../src';
+import { IconCreditCard2 } from '../src';
 import { IconDocument } from '../src';
 import { IconEdit } from '../src';
 import { IconEditUser } from '../src';
@@ -45,6 +46,9 @@ import { IconHouseThreeD } from '../src';
 import { IconInstagram } from '../src';
 import { IconLightbulb } from '../src';
 import { IconLinkedin } from '../src';
+import { IconListDots } from '../src';
+import { IconListNum } from '../src';
+import { IconListSquares } from '../src';
 import { IconMapMarker } from '../src';
 import { IconMinus } from '../src';
 import { IconMobile } from '../src';
@@ -117,6 +121,7 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconClose style={l} /><span style={s} />IconClose</div>
     <div style={rowStyle}><IconCog style={l} /><span style={s} />IconCog</div>
     <div style={rowStyle}><IconCreditCard style={l} /><span style={s} />IconCreditCard</div>
+    <div style={rowStyle}><IconCreditCard2 style={l} /><span style={s} />IconCreditCard2</div>
     <div style={rowStyle}><IconDocument style={l} /><span style={s} />IconDocument</div>
     <div style={rowStyle}><IconEdit style={l} /><span style={s} />IconEdit</div>
     <div style={rowStyle}><IconEditUser style={l} /><span style={s} />IconEditUser</div>
@@ -141,6 +146,9 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconInstagram style={l} /><span style={s} />IconInstagram</div>
     <div style={rowStyle}><IconLightbulb style={l} /><span style={s} />IconLightbulb</div>
     <div style={rowStyle}><IconLinkedin style={l} /><span style={s} />IconLinkedin</div>
+    <div style={rowStyle}><IconListDots style={l} /><span style={s} />IconListDots</div>
+    <div style={rowStyle}><IconListNum style={l} /><span style={s} />IconListNum</div>
+    <div style={rowStyle}><IconListSquares style={l} /><span style={s} />IconListSquares</div>
     <div style={rowStyle}><IconMapMarker style={l} /><span style={s} />IconMapMarker</div>
     <div style={rowStyle}><IconMinus style={l} /><span style={s} />IconMinus</div>
     <div style={rowStyle}><IconMobile style={l} /><span style={s} />IconMobile</div>
