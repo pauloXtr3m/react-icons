@@ -68,6 +68,7 @@ export * from './solarPanel';
 export * from './sync';
 export * from './tachometer';
 export * from './tasks';
+export * from './ticket';
 export * from './trash';
 export * from './user';
 export * from './userLight';

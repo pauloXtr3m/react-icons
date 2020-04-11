@@ -69,6 +69,7 @@ import { IconSolarPanel } from '../src';
 import { IconSync } from '../src';
 import { IconTachometer } from '../src';
 import { IconTasks } from '../src';
+import { IconTicket } from '../src';
 import { IconTrash } from '../src';
 import { IconUser } from '../src';
 import { IconUserLight } from '../src';
@@ -169,6 +170,7 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconSync style={l} /><span style={s} />IconSync</div>
     <div style={rowStyle}><IconTachometer style={l} /><span style={s} />IconTachometer</div>
     <div style={rowStyle}><IconTasks style={l} /><span style={s} />IconTasks</div>
+    <div style={rowStyle}><IconTicket style={l} /><span style={s} />IconTicket</div>
     <div style={rowStyle}><IconTrash style={l} /><span style={s} />IconTrash</div>
     <div style={rowStyle}><IconUser style={l} /><span style={s} />IconUser</div>
     <div style={rowStyle}><IconUserLight style={l} /><span style={s} />IconUserLight</div>
