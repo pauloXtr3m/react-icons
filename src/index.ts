@@ -8,6 +8,7 @@ export * from './angleRight';
 export * from './angleUp';
 export * from './arrowLeft';
 export * from './bars';
+export * from './beakerThreeD';
 export * from './bell';
 export * from './bolt';
 export * from './calculator';
