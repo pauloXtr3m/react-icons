@@ -6,6 +6,7 @@ export * from './angleDown';
 export * from './angleLeft';
 export * from './angleRight';
 export * from './angleUp';
+export * from './apple';
 export * from './arrowLeft';
 export * from './bars';
 export * from './beakerThreeD';

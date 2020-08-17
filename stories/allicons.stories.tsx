@@ -7,6 +7,7 @@ import { IconAngleDown } from '../src';
 import { IconAngleLeft } from '../src';
 import { IconAngleRight } from '../src';
 import { IconAngleUp } from '../src';
+import { IconApple } from '../src';
 import { IconArrowLeft } from '../src';
 import { IconBars } from '../src';
 import { IconBeakerThreeD } from '../src';
@@ -109,6 +110,7 @@ stories.add('IconAccount', () => (
     <div style={rowStyle}><IconAngleLeft style={l} /><span style={s} />IconAngleLeft</div>
     <div style={rowStyle}><IconAngleRight style={l} /><span style={s} />IconAngleRight</div>
     <div style={rowStyle}><IconAngleUp style={l} /><span style={s} />IconAngleUp</div>
+    <div style={rowStyle}><IconApple style={l} /><span style={s} />IconApple</div>
     <div style={rowStyle}><IconArrowLeft style={l} /><span style={s} />IconArrowLeft</div>
     <div style={rowStyle}><IconBars style={l} /><span style={s} />IconBars</div>
     <div style={rowStyle}><IconBeakerThreeD style={l} /><span style={s} />IconBeakerThreeD</div>
